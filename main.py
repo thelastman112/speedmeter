@@ -1,5 +1,5 @@
-import psutil
 import time
+import psutil
 
 last_recieved = psutil.net_io_counters().bytes_recv
 last_sent = psutil.net_io_counters().bytes_sent
